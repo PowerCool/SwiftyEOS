@@ -730,7 +730,7 @@
         <scene sceneID="cQG-P2-XQM">
             <objects>
                 <viewController id="rJp-oW-ZR1" customClass="FeatureListViewController" customModule="Mako" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" misplaced="YES" id="vDP-N6-tbM">
+                    <view key="view" id="vDP-N6-tbM">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="500"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
@@ -798,11 +798,11 @@
                                     <constraint firstAttribute="height" constant="500" id="8co-w3-Ibc"/>
                                     <constraint firstAttribute="width" constant="200" id="EQ7-jw-osv"/>
                                 </constraints>
-                                <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="HFY-AC-6GH">
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="HFY-AC-6GH">
                                     <rect key="frame" x="-100" y="-100" width="238" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
-                                <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="Wbf-NB-vIO">
+                                <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="Wbf-NB-vIO">
                                     <rect key="frame" x="-100" y="-100" width="15" height="102"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
